@@ -20,6 +20,39 @@ public static class RevisarZonaDerecha
             SceneView.lastActiveSceneView.LookAt(new Vector3(19f, 1f, 12f), Quaternion.Euler(57f, -30f, 0f), 15f);
     }
 
+    [MenuItem("Tools/Mapa/Enfocar camion de basura")]
+    public static void EnfocarCamion()
+    {
+        GameObject camion = GameObject.Find("CamionBasura_Integrado");
+        if (camion == null)
+        {
+            Debug.LogWarning("Abre Assets/Scenes/Mapa.unity para localizar el camion.");
+            return;
+        }
+
+        Selection.activeGameObject = camion;
+        if (SceneView.lastActiveSceneView != null)
+            SceneView.lastActiveSceneView.LookAt(camion.transform.position + Vector3.up * .45f,
+                Quaternion.Euler(32f, -38f, 0f), 2.6f);
+    }
+
+    [MenuItem("Tools/Mapa/Validar ciudad completa")]
+    public static void ValidarCiudad()
+    {
+        Validar();
+        for (int numero = 1; numero <= 17; numero++)
+            if (GameObject.Find("Estacionamiento_" + numero) == null)
+                throw new InvalidOperationException("Falta el estacionamiento " + numero);
+
+        GameObject norte = GameObject.Find("ZonaSuperiorIzquierda");
+        if (norte == null || norte.GetComponentsInChildren<MeshFilter>().Any(f => f.sharedMesh == null))
+            throw new InvalidOperationException("Falta una malla en la zona superior izquierda.");
+        if (GameObject.Find("Arbol de la glorieta") == null)
+            throw new InvalidOperationException("Falta el arbol de la glorieta.");
+
+        Debug.Log("Ciudad validada: 17 estacionamientos, manzanas del norte, glorieta y camion texturizado.");
+    }
+
     [MenuItem("Tools/Mapa/Validar zona derecha y camion")]
     public static void Validar()
     {

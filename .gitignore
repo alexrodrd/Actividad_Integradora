@@ -112,3 +112,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Entregas individuales en .unitypackage (carpetas por matrícula)
+!/A0*/*.unitypackage
+
+# Archivos de macOS
+.DS_Store

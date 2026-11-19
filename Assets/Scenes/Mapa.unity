@@ -5829,7 +5829,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 65
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -6165,6 +6165,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cc5829c54bd54640a75fe13dde78f53, type: 3}
+--- !u!1001 &720000000000001440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720000000000000001, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+      propertyPath: m_Name
+      value: ZonaDerecha_Completa
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+--- !u!4 &720000000000001441 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 720000000000000002, guid: 2e734879ba213fa424fd9fc7592b7395, type: 3}
+  m_PrefabInstance: {fileID: 720000000000001440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &720000000000001442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3929189569735152608, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+      propertyPath: m_Name
+      value: CamionBasura_Integrado
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+--- !u!4 &720000000000001443 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 99134001565632589, guid: 8b9c2e9355fc4b843bae10898457f118, type: 3}
+  m_PrefabInstance: {fileID: 720000000000001442}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6178,3 +6302,5 @@ SceneRoots:
   - {fileID: 493227128}
   - {fileID: 783139638}
   - {fileID: 1632947560171936499}
+  - {fileID: 720000000000001440}
+  - {fileID: 720000000000001442}
